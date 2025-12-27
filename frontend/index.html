@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bazaar Eye - Laptop Bargain Advisor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Bazaar Eye 🔍 Laptop Price Advisor</h2>
+
+<div class="box">
+  <label>Laptop Details</label>
+  <input id="laptop" placeholder="Example: MacBook Pro 2019 i7 16GB 512GB">
+
+  <label>Condition</label>
+  <select id="condition">
+    <option>Like New</option>
+    <option>Good</option>
+    <option>Used</option>
+    <option>Rough</option>
+  </select>
+
+  <label>Market</label>
+  <input id="market" value="Nehru Place Delhi">
+
+  <button onclick="getPrice()">Get Price Advice</button>
+</div>
+
+<h3>Result</h3>
+<div id="result" class="resultBox"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
